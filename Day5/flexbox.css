@@ -1,0 +1,63 @@
+.flex-container {
+  border: 2px solid black;
+  height: 300px;
+  display: flex;
+  flex-direction: row; /* set the main axis as horizontal */
+  align-items: flex-start;
+  justify-content: space-between; /* distribute items evenly along the main axis */
+  /* flex-wrap: wrap;
+  align-content: center; */
+}
+
+.flex-item {
+  background-color: #f2f2f2;
+  width: 200px;
+  padding: 10px;
+  margin: 5px;
+}
+
+/* .main-axis {
+    position: absolute;
+    top: 50%;
+    height: 3px;
+    width: 2160px;
+    background-color: red;
+  }
+
+  .cross-axis {
+    position: absolute;
+    right: 50%;
+    height: 1080px;
+    width: 3px;
+    background-color: blue;
+  } */
+
+/* .flex1 {
+  flex-grow: 1;
+} */
+
+/* .flex1 {
+  flex-shrink: 5;
+} */
+
+/* .flex1 {
+  flex-basis: 300px;
+} */
+
+/* .flex1 {
+  flex: [flex-grow] [flex-shrink] [flex-basis];
+  flex: 1 5 300px;
+} */
+
+.flex2 {
+}
+
+.flex3 {
+  align-self: center;
+}
+
+.axis main-axis {
+}
+
+.axis cross-axis {
+}
